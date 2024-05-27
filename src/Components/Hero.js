@@ -23,7 +23,7 @@ function Hero() {
         <button className='flex border-2 
         px-3 
         text-white bg-purple-600
-
+        hover:bg-black
         p-4 rounded-md hover:text-white hover:bg-black'>
           Say Hello <RiShareCircleLine className='mt-1 ml-1'/>
 

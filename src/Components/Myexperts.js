@@ -36,8 +36,8 @@ function Myexperts() {
                 Education
             </button>
 
-            <div className=''>
-        <div className='flex justify-between mt-10 pt-10 px-20 transition-all duration-700'>
+            <div className=' px-10'>
+        <div className='flex justify-between mt-10 pt-10  transition-all duration-700'>
         <div className=''>
             <IoLogoFigma className='justify-center text-4xl ml-5 ' />
         <p className='text-left'>Figma(89%)</p>
@@ -56,7 +56,7 @@ function Myexperts() {
         </div>
          </div>
 
-         <div className='flex justify-between mt-16 px-20 pt-9 transition-all duration-700'>
+         <div className='flex justify-between mt-16 pt-9 px-10 transition-all duration-700'>
         <div className=''>
             <IoLogoFigma className='justify-center text-4xl ml-5 ' />
         <p className='text-left'>Figma(89%)</p>

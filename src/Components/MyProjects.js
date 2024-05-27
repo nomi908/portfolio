@@ -14,7 +14,12 @@ function MyProjects() {
     
   };
   return (
-    <div className="slider-container w-[85%] m-auto shadow-xl rounded-xl shadow-purple-800 mt-10 p-4  lg:block hidden">
+    <div className=''>
+
+      <div>
+      <p className='mt-3 text-center text-xl underline italic lg:text-4xl font-semibold'>Look at my Recent Project</p>
+      </div>
+      <div className="slider-container w-[85%] m-auto shadow-xl rounded-xl shadow-purple-800 mt-10 p-4  lg:block hidden">
       <Slider {...settings}>
         {data.map((d) => (
           <div className='border-2  border-black lg:h-[400px]  rounded-xl' >
@@ -38,6 +43,8 @@ function MyProjects() {
 
 
       
+    </div>
+
     </div>
   );
 }

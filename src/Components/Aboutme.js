@@ -34,7 +34,7 @@ function Aboutme() {
       </div>
       
       <div className='flex mt-3 lg:hidden justify-center p-3'>
-            <a href='/cv.pdf'  className=' text-white flex  bg-yellow-500 p-1 text-center mt-3 px-2 rounded  '>
+            <a href='/cv.pdf'  className=' text-white flex hover:bg-black bg-yellow-500 p-1 text-center mt-3 px-2 rounded  '>
                 Download CV  <IoDocumentTextOutline className='ml-1 mt-1'/>
 
             </a>
